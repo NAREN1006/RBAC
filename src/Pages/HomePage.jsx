@@ -14,7 +14,7 @@ const HomePage = () => {
     if (NewContent.length == 0) { alert("fill") }
     const newData = {
       id: DataBase.length,
-      username:username ,
+      username: username,
       message: NewContent,
       uid: useruid
 

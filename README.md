@@ -21,8 +21,7 @@ This project is a React-based CRUD (Create, Read, Update, Delete) application wi
 
 - *Authentication & Authorization:*
   - Protected routes to prevent unauthorized access
-
-## Login Credentials
+ ## Login Credentials
 
 1.Admin User:
   username:NAREN
