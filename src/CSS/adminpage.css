@@ -1,0 +1,155 @@
+h2#admin {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+input[name="add-user"] {
+    width: 40%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+input[name="set-pass"] {
+    width: 40%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+button[name="add-user"] {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    width: 10%;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px auto;
+    display: block;
+}
+
+button[name="add-user"]:hover {
+    background-color: #0056b3;
+}
+
+h3#uname {
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+h4#upass {
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+h5#uuid {
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+button[name="delete-user"] {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px auto;
+    display: block;
+}
+
+button[name="delete-user"]:hover {
+    background-color: #c82333;
+}
+
+
+button[name="edit-user"] {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px auto;
+    display: block;
+}
+
+button[name="edit-user"]:hover {
+    background-color: #e0a800;
+}
+
+input[name="editingId"],
+input[name="editingPassword"] {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.edit-form {
+    margin-top: 10px;
+}
+
+.edit-form input[name="editingId"] {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-form input[name="editingPassword"] {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-form button[name="edit-user"] {
+    padding: 8px 12px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.edit-form button:hover {
+    background-color: #218838;
+}
+
+#user-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    /* background-color: #f9f9f9; */
+}
+
+@media (max-width: 600px) {
+    input[name="add-user"],
+    input[name="set-pass"],
+    button[name="add-user"] {
+        width: 30%; /* Adjust width for smaller screens */
+        font-size: 12px; /* Adjust font size for better readability on small screens */
+        padding: 8px 10px; /* Adjust padding for smaller elements */
+    }
+}
