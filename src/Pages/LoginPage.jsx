@@ -19,6 +19,7 @@ const LoginPage = () => {
       alert('Wrong credentials');
     } else {
       console.log('Login successful');
+      sessionStorage.setItem('username',result.username)
       sessionStorage.setItem('isAuth', true);
       sessionStorage.setItem('role', result.role);
       sessionStorage.setItem('uid', result.uid)

@@ -8,12 +8,13 @@ const HomePage = () => {
   const [ToEdit, setToEdit] = useState('');
   const [editingId, setEditingId] = useState(null);
   const useruid = sessionStorage.getItem('uid')
+  const username=sessionStorage.getItem('username')
   //create a new content
   const Post = () => {
     if (NewContent.length == 0) { alert("fill") }
     const newData = {
       id: DataBase.length,
-      username: 'rajan',
+      username:username ,
       message: NewContent,
       uid: useruid
 
